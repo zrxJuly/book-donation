@@ -10,12 +10,12 @@
 **第2步：数据库导入**  
 &emsp;&emsp;数据库文件(book_donation.sql)在book-donation/docs/下，将数据库导入到你的本地。  
 **第3步：项目导入**  
-&emsp;&emsp;开发工具IDEA或Eclipse均可。  
+&emsp;&emsp;开发工具：Eclipse 
 &emsp;&emsp;作为maven项目导入，导入期间需要下载相关依赖包，可能会比较慢，成功导入后，看项目是否正常无报错(我之前用的eclipse开发的该项目，然后又重新导到idea中，部署运行时相应类注入失败，用eclipse需要打一次包，之后再在idea中部署运行项目才可以)。  
 **第4步：修改配置文件**  
 &emsp;&emsp;修改MySQL数据库连接文件(book-donation/src/main/resources/jdbc.properties)，将账号及密码改为你自己的。  
 **第5步：部署运行**  
-&emsp;&emsp;在你的本地tomcat部署运行，访问地址：`项目名/login.jsp`  
+&emsp;&emsp;在你的本地tomcat部署运行  
 ## 功能介绍
 ### 系统总体结构设计
 ![功能设计图](docs/images/design.png)
