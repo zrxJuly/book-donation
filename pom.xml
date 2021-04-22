@@ -10,7 +10,7 @@
 		<!-- junit依赖 -->
 		<!-- <junit.version>4.12</junit.version> -->
 		<spring.version>5.1.6.RELEASE</spring.version>
-		<mybatis.version>3.2.6</mybatis.version>
+		<mybatis.version>3.5.6</mybatis.version>
 	</properties>
 
 	<dependencies>
