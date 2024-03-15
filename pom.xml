@@ -9,7 +9,7 @@
 	<properties>
 		<!-- junit依赖 -->
 		<!-- <junit.version>4.12</junit.version> -->
-		<spring.version>5.1.6.RELEASE</spring.version>
+		<spring.version>5.3.33</spring.version>
 		<mybatis.version>3.2.6</mybatis.version>
 	</properties>
 
